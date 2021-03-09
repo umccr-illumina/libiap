@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="libiap",
-    version="0.4.1rc1",
+    version="0.4.1",
     packages=find_packages(),
     url="https://github.com/umccr-illumina/libiap",
     license="MIT",
@@ -18,6 +18,13 @@ setup(
     install_requires=[
         "libica==0.5.0",
     ],
+    extras_require={
+        "dev": [
+            "twine",
+            "setuptools",
+            "wheel",
+        ],
+    },
     classifiers=[
         "Development Status :: 7 - Inactive",
     ],

@@ -1,4 +1,7 @@
-.PHONY: dist test
+.PHONY: dist test install
+
+install:
+	@pip install '.[dev]'
 
 test:
 	@python -m unittest

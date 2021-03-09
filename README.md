@@ -1,6 +1,8 @@
 # libiap
 
-Please use https://github.com/umccr-illumina/libica instead
+Please use `pip install libica` instead
+- https://pypi.org/project/libica/
+- https://github.com/umccr-illumina/libica
 
 ## Alpha Modules Deprecation Note
 
