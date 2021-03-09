@@ -1,43 +1,24 @@
 from setuptools import setup, find_packages
-from libiap import __version__
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
     name="libiap",
-    version=__version__,
+    version="0.4.1rc1",
     packages=find_packages(),
-    url="https://github.com/umccr/libiap",
+    url="https://github.com/umccr-illumina/libiap",
     license="MIT",
     author="UMCCR and Contributors",
     author_email="services@umccr.org",
-    description="Python SDK/Library for IAP",
+    description="Please use https://github.com/umccr-illumina/libica instead",
     long_description=long_description,
     long_description_content_type="text/markdown",
     python_requires=">=3.6",
-    extras_require={
-        "dev": [
-            "pipdeptree",
-            "twine",
-            "setuptools",
-            "wheel",
-            "pdoc3",
-            "mkdocs",
-            "mkdocs-material",
-        ],
-        "test": [
-            "pytest",
-            "pytest-cov",
-            "flake8",
-            "mockito",
-        ],
-    },
     install_requires=[
-        "requests",
-        "python-dateutil",
-        "six",
-        "urllib3",
-        "certifi",
+        "libica==0.5.0",
+    ],
+    classifiers=[
+        "Development Status :: 7 - Inactive",
     ],
 )

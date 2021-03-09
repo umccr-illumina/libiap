@@ -25,3 +25,8 @@
 * Added support for token alias
 * Added deprecation warning for alpha modules
 * See [milestone 0.4.0 for all related PRs](https://github.com/umccr-illumina/libiap/milestone/1?closed=1)
+
+0.4.1
+-----
+* Release date: 2021-03-09
+* Use https://github.com/umccr-illumina/libica instead
